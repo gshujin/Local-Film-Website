@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Lexend+Deca:wght@100;300&family=Noto+Serif+Display&family=Prata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif Display';
+}
+
+.navbar{
+    background: #131313;
+    padding: 1rem 5rem;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.05rem;
+    padding: 0 1rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #E50914;
+}
+ 
+#navbarSupportedContent > form > button{
+    background: grey;
+    font-weight: 500;
+    padding: 0.4rem 1.4rem;
+    color: white;
+    border-radius: 20px;
+}
+
+#navbarSupportedContent > form > button:hover{
+    background: #E50914;
+}
+
+.hero {
+    background-color: #131313;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed ;
+    overflow: hidden;
+}
+
+.hero .container .row p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding: 1rem 0rem;
+}
+
+.hero .container .row a{
+    background: grey;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.hero .container .row a:hover{
+    background: #E50914;
+}
+
+.about{
+    background-color: #131313;
+}
+
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    font-family: 'Noto Serif Display';
+}
+
+.about .text h6{
+    color: #E50914;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.about .text p{
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.about .text a{
+    background: grey;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.about .text a:hover{
+    background: #E50914;
+}
+
+.artists{
+    background:white;
+}
+
+.artists .heading h1{
+    font-size: 3rem;
+}
+
+.artists .card{
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    width: 300x;
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body > footer{
+    background-color: #131313;
+    font-size: 0.8rem;
+}
+
+.advert{
+    background:#131313;
+}
+
+#thisForm > div > input:nth-child(4){
+    height: 100px
+};
+
+.btn{
+    background: white;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    border-radius: 20px;
+    text-decoration-color: white;
+}
+
+.films{
+    background-color: #131313;
+}
+
+.movies-container{
+    max-width: 900px;
+    margin-right: auto;
+    margin-left:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.box .box-img{
+    width: 100%;
+    height:270px;
+    padding-bottom: 8px;
+}
+
+.box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box .box-img img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+
+
+.box span{
+    font-size: 13px;
+    color: #E50914;
+}
+
+.but {
+    text-align: center;
+}
+
+.but .btn{
+    background: grey;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 0px;
+    border: none;
+    width: 130px;
+}
+
+.but .btn:active, .btn:focus{
+    background: #E50914;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    padding: 20px 50px 20px 20px;
+    overflow: auto;
+}
+
+.close {
+    color: #aaaaaa;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+th, td{
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+}
+
+[data-tip] {
+	position:relative;
+
+}
+[data-tip]:before {
+	content:'';
+	/* hides the tooltip when not hovered */
+	display:none;
+	content:'';
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #1a1a1a;	
+	position:absolute;
+	top:30px;
+	left:35px;
+	z-index:8;
+	font-size:0;
+	line-height:0;
+	width:0;
+	height:0;
+}
+[data-tip]:after {
+	display:none;
+	content:attr(data-tip);
+	position:absolute;
+	top:35px;
+	left:0px;
+	padding:5px 8px;
+	background:#975a5a;
+	color:#fff;
+	z-index:9;
+	font-size: 0.75em;
+	height:25px;
+	line-height:18px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	white-space:nowrap;
+	word-wrap:normal;
+}
+[data-tip]:hover:before,
+[data-tip]:hover:after {
+	display:block;
+}
+
+.display {
+    padding: 20px;
+    margin: 20px;
+}

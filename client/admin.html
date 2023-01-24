@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOCA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://127.0.0.1:8090/">loca.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:8090/#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="films.html">Films</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:8090/#artists">Directors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:8090/#join">Join Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="search.html">Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin.html">Admin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+    <section class="about py-5" id="deleteFilm">
+        <div class="row align-items-center container my-5 mx-auto">
+            <h1 class="pb-4 text-light">Delete a film</h1>
+            <div class="list col-md-12 col-lg-6">
+                <table id="IDtable" class="text-light">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Film Title</th>
+                            <th>Genre</th>
+                            <th>Director</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+            <div class="text col-md-12 col-lg-6">
+                <form id="deleteForm">
+                    <label class="text-light" for="Film">Insert the ID of the film you wish to delete and your email address.</label>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Film ID" name="Film">
+                    <br>
+                    <br>
+                    <div data-tip="This email must be the email you used to register your film.">
+                        <input type="text" placeholder="Email" name="Email">
+                    </div>
+                    <br>
+                    <input type="submit" value="Submit" class="btn m-3" id="testbutton" style="background-color:#E50914; color: white;"> 
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="about py-5" id="deleteDirector">
+      <div class="row align-items-center container my-5 mx-auto">
+          <h1 class="pb-4 text-light">Delete a director</h1>
+          <div class="list col-md-12 col-lg-6">
+              <table id="Directortable" class="text-light">
+                  <thead>
+                      <tr>
+                          <th>Director</th>
+                          <th>Hometown</th>
+                      </tr>
+                  </thead>
+                  <tbody id="tableBodyD"></tbody>
+              </table>
+          </div>
+          <div class="text col-md-12 col-lg-6">
+              <form id="deleteDirectorForm">
+                  <label class="text-light" for="Name">Insert your name and your email address to remove yourself from our database.</label>
+                  <br>
+                  <br>
+                  <input type="text" placeholder="Director Name" name="DirectorName">
+                  <br>
+                  <br>
+                  <div data-tip="This email must be the email you used to register your film.">
+                      <input type="text" placeholder="Email" name="Emailaddress">
+                  </div>
+                  <br>
+                  <input type="submit" value="Submit" class="btn m-3" id="testbutton" style="background-color:#E50914; color: white;"> 
+              </form>
+          </div>
+          
+      </div>
+  </section>
+  
+  <footer class="pt-4 pb-3">
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-lg-12">
+          <p style="color: white;"> &copy; Copyright 2022. All rights reserved. All media sourced with permission from https://unsplash.com/.</p>
+        </div>
+      </div>
+    </div>  
+  </footer>
+  
+</body>
+<script src="admin.js"></script>
+</html>
