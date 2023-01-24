@@ -1,0 +1,32 @@
+[
+  {
+    "directorID": "director1@gmail.com",
+    "name": "Michael Scott",
+    "hometown": "Mount Oswald, County Durham",
+    "motto": "You miss 99% of the shots you don't take."
+  },
+  {
+    "directorID": "director2@gmail.com",
+    "name": "Phil Dunphy",
+    "hometown": "Peterlee, County Durham",
+    "motto": "Do you see me saying “I'm done”? Never. Because there is no “done” in my name."
+  },
+  {
+    "directorID": "director3@gmail.com",
+    "name": "Hannah Baker",
+    "hometown": "Newton Aycliffe, County Durham",
+    "motto": "What doesn't kill you make you stronger."
+  },
+  {
+    "directorID": "director4@gmail.com",
+    "name": "Steve Rogers",
+    "hometown": "Stockton, County Durham",
+    "motto": "I can do this all day."
+  },
+  {
+    "directorID": "director5@gmail.com",
+    "name": "Rosa Diaz",
+    "hometown": "Hartlepool, County Durham",
+    "motto": "I may not be the tallest or the most athletic but someday I will be the richest."
+  }
+]

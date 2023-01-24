@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Fantastic Beast",
+    "genre": "Family",
+    "poster": "upload\\posters\\img1rom.jpg",
+    "synopsis": "The year is 1926, and Newt Scamander has just completed a global excursion to find and document an extraordinary array of magical creatures. Arriving in New York for a brief stopover, he might have come and gone without incident, were it not for a man named Jacob.",
+    "directorID": "director1@gmail.com",
+    "director": "Michael Scott"
+  },
+  {
+    "id": 2,
+    "title": "Twilight",
+    "genre": "Action",
+    "poster": "upload\\posters\\img2action.jpg",
+    "synopsis": "High-school student Bella Swan, always a bit of a misfit, doesn't expect life to change much when she moves from sunny Arizona to rainy Washington state. Then she meets Edward Cullen, a handsome but mysterious teen whose eyes seem to peer directly into her soul.",
+    "directorID": "director2@gmail.com",
+    "director": "Phil Dunphy"
+  },
+  {
+    "id": 3,
+    "title": "New Moon",
+    "genre": "Horror",
+    "poster": "upload\\posters\\img3hor.jpg",
+    "synopsis": "In what was once North America, the Capitol of Panem maintains its hold on its 12 districts by forcing them each to select a boy and a girl, called Tributes, to compete in a nationally televised event called the Hunger Games. Every citizen must watch as the youths fight to the death until only one remains. District 12 Tribute Katniss Everdeen has little to rely on.",
+    "directorID": "director3@gmail.com",
+    "director": "Hannah Baker"
+  },
+  {
+    "id": 4,
+    "title": "Breaking Dawn",
+    "genre": "Drama",
+    "poster": "upload\\posters\\img4fam.jpg",
+    "synopsis": "While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places.",
+    "directorID": "director4@gmail.com",
+    "director": "Steve Rogers"
+  },
+  {
+    "id": 5,
+    "title": "Ace Ventura",
+    "genre": "Comedy",
+    "poster": "upload\\posters\\img5com.jpg",
+    "synopsis": "When the dolphin mascot of Miami's NFL team is abducted, Ace Ventura, a zany private investigator who specializes in finding missing animals, looks into the case. Soon Miami Dolphins players are kidnapped too, including star player Dan Marino, making Ace's sleuth work even more pressing.",
+    "directorID": "director5@gmail.com",
+    "director": "Rosa Diaz"
+  },
+  {
+    "id": 6,
+    "title": "Poseidon",
+    "genre": "Drama",
+    "poster": "upload\\posters\\img6.jpg",
+    "synopsis": "Ill-fated maiden voyage of the R.M.S. Titanic; the pride and joy of the White Star Line and, at the time, the largest moving object ever built. She was the most luxurious liner of her era which ultimately carried over 1,500 people to their death in the ice cold waters of the North Atlantic in the early hours of April 15, 1912.",
+    "directorID": "director3@gmail.com",
+    "director": "Hannah Baker"
+  },
+  {
+    "id": 7,
+    "title": "I.T. Chapter 3",
+    "genre": "Horror",
+    "poster": "upload\\posters\\img7.jpg",
+    "synopsis": "After the mysterious and sudden vanishing of a young boy, the people of a small town begin to uncover secrets of a government lab, portals to another world and sinister monsters. The boy's mother (Joyce) desperately tries to find him, convinced he is in grave danger, while the police chief searches for answers.",
+    "directorID": "director2@gmail.com",
+    "director": "Phil Dunphy"
+  },
+  {
+    "id": 8,
+    "title": "Twenty One Again",
+    "genre": "Family",
+    "poster": "upload\\posters\\img8.jpg",
+    "synopsis": "Stubborn and cranky 70-year-old granny, MengJun, is forlorn when her family decide to move her into a nursing home until she transforms into a 20-year-old.",
+    "directorID": "director1@gmail.com",
+    "director": "Michael Scott"
+  },
+  {
+    "id": 9,
+    "title": "Brooklyn 99",
+    "genre": "Action",
+    "poster": "upload\\posters\\img9.jpg",
+    "synopsis": "New York City policeman John McClane is visiting his estranged wife and two daughters on Christmas Eve. He joins her at a holiday party in the headquarters of the Japanese-owned business she works for. But the festivities are interrupted by a group of terrorists.",
+    "directorID": "director5@gmail.com",
+    "director": "Rosa Diaz"
+  },
+  {
+    "id": 10,
+    "title": "Modern Family",
+    "genre": "Comedy",
+    "poster": "upload\\posters\\img10.jpg",
+    "synopsis": "Jay Pritchett sits at the head of a large, unconventional family. Now in his second marriage to gorgeous young wife Gloria, Jay has been given something of a second chance. Still, old habits are hard to break, and it's trial by fire as he tries to adapt to life with the same passion and vigor that Gloria exhibits, which are matched by her precocious 12-year-old son Manny. There are culture clashes and a few misunderstandings, but also plenty of sweet victories along the way. ",
+    "directorID": "director2@gmail.com",
+    "director": "Phil Dunphy"
+  },
+  {
+    "id": 11,
+    "title": "Threat Level Midnight",
+    "genre": "Horror",
+    "poster": "upload\\posters\\img11.jpg",
+    "synopsis": "Dunder Miflin slowly turns into a heavy-hitting little competitor in the northeast regional paper and office supplies market. Fast forward to 2001, when regional manager Ed Truck retires, leaving a vacancy at Dunder Mifflin's branch in Scranton, Pennsylvania. This paves the way for abrasive salesman Michael Scott to end his eight-year career as one of the company's top salesman in order to become one of the most iconic managers in history.",
+    "directorID": "director1@gmail.com",
+    "director": "Michael Scott"
+  }
+]
