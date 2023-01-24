@@ -9,7 +9,7 @@ INTRODUCTION
 This is a website for a non-profit organisation, Loca that helps promote and advertise films produced by local talents from County Durham.
 
 EXECUTION INSTRUCTIONS
-1) After downloading all files into the same directory, go to the respective directory in your terminal. (Go to the "summative" file in your terminal)
+1) After downloading all files into the same directory, go to the respective directory in your terminal.
 2) Install node modules with the command "npm install".
 3) Start the server with the command "npm start".
 4) Go to http://127.0.0.1:8090/index.html in a browser.
